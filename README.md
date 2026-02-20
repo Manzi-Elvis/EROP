@@ -127,8 +127,8 @@ This structure follows separation of concerns and scalable service-layer archite
 ### 1️ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/erop.git
-cd erop
+git clone https://github.com/Manzi-Elvis/EROP.git
+cd EROP
 ```
 
 ---
