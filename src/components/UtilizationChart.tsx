@@ -6,7 +6,8 @@ import {
   Tooltip,
   ResponsiveContainer,
   CartesianGrid,
-  Cell
+  Cell,
+  ReferenceLine
 } from "recharts"
 import { type UserUtilization } from "../types/User"
 
@@ -31,6 +32,7 @@ export default function UtilizationChart({ data }: Props) {
     <div style={{ width: "100%", height: 400 }}>
       <ResponsiveContainer>
         <BarChart data={data}>
+          <ReferenceLine y={100} stroke="red" strokeDasharray="3 3" />
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
           <YAxis />
