@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import DashboardLayout from "../layouts/DashboardLayout"
 import { api } from "../api/client"
-import { UserUtilization } from "../types/User"
+import { type UserUtilization } from "../types/User"
 
 export default function Dashboard() {
   const [users, setUsers] = useState<UserUtilization[]>([])
