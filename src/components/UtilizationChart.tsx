@@ -7,7 +7,7 @@ import {
   ResponsiveContainer,
   CartesianGrid
 } from "recharts"
-import { UserUtilization } from "../types/User"
+import { type UserUtilization } from "../types/User"
 
 interface Props {
   data: UserUtilization[]
