@@ -9,7 +9,7 @@ export default function DashboardLayout({ children }: Props) {
     <div style={{ display: "flex", height: "100vh" }}>
       <aside style={{
         width: "250px",
-        background: "#111827",
+        background: "#11192b",
         color: "white",
         padding: "20px"
       }}>
